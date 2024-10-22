@@ -1,0 +1,119 @@
+.composerContainer {
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.recipientContainer {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.radioGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.radioGroup label {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.htmlContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.editorContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.editorContainer :global(.ck-editor) {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.editorContainer :global(.ck-editor__main) {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.editorContainer :global(.ck-editor__editable_inline) {
+  flex: 1;
+  min-height: 300px;
+  max-height: none;
+}
+
+.previewContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.previewTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.preview {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  min-height: 300px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.plainContainer {
+  width: 100%;
+}
+
+.plainTextArea {
+  width: 100%;
+  min-height: 300px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.suggestButton {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.suggestButton:hover {
+  background-color: #218838;
+}
+
+.saveButton {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.saveButton:hover {
+  background-color: #0056b3;
+}
